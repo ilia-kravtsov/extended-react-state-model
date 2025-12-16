@@ -8,10 +8,16 @@ export default function App() {
     <div>
       <h1>Counter — extended react state model variant</h1>
 
+      <main>
       <CounterDisplay />
       <CounterControls />
       <StepInput />
       <LastUpdated />
+      </main>
+
+      <footer>
+        Extended react state model implementation. createGstore realization.
+      </footer>
     </div>
   );
 }
