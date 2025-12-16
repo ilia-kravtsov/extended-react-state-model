@@ -13,12 +13,12 @@ export const useCounterStore = createGStore<CounterState>(() => {
     lastUpdatedBy,
 
     increment: () => {
-      setCount(c => c + step);
+      setCount(count => count + step);
       setLastUpdatedBy("increment");
     },
 
     decrement: () => {
-      setCount(c => c - step);
+      setCount(count => count - step);
       setLastUpdatedBy("decrement");
     },
 
@@ -27,8 +27,8 @@ export const useCounterStore = createGStore<CounterState>(() => {
       setLastUpdatedBy("reset");
     },
 
-    setStep: (v) => {
-      setStep(v);
+    setStep: (value) => {
+      setStep(value);
       setLastUpdatedBy("setStep");
     }
   };

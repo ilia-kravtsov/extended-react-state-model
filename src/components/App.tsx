@@ -9,10 +9,10 @@ export default function App() {
       <h1>Counter — extended react state model variant</h1>
 
       <main>
-      <CounterDisplay />
-      <CounterControls />
-      <StepInput />
-      <LastUpdated />
+        <CounterDisplay />
+        <CounterControls />
+        <StepInput />
+        <LastUpdated />
       </main>
 
       <footer>
