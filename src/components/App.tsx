@@ -6,7 +6,7 @@ import LastUpdated from "./LastUpdated";
 export default function App() {
   return (
     <div>
-      <h1>Counter — extended react state model variant</h1>
+      <h1>Counter — extended react state model</h1>
 
       <main>
         <CounterDisplay />
@@ -16,7 +16,7 @@ export default function App() {
       </main>
 
       <footer>
-        Extended react state model implementation. createGstore realization.
+        createGstore implementation.
       </footer>
     </div>
   );
